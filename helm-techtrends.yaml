@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: techtrends
+  namespace: argocd
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    helm:
+      valuesFiles:  
+      - values.yaml
+    path: manifests
+    repoURL: https://github.com/mctsm/techtrends
+    targetRevision: HEAD
+  syncPolicy: {}

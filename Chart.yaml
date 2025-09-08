@@ -1,0 +1,10 @@
+apiVersion: v1
+name: techtrends
+description:Helm Chart to template 
+keywords:
+- Helm
+- techtrends 
+version: 1.0.0
+maintainers:
+- name: mcm
+  email: migma@tdcnet.dk
