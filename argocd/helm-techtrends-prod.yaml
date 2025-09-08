@@ -12,6 +12,7 @@ spec:
     helm:
       - values-prod.yaml
     path: manifests
-    repoURL: https://github.com/mctsm/techtrends
+    repoURL: https://github.com/mctsm/techtest
     targetRevision: HEAD
   syncPolicy: {}
+
