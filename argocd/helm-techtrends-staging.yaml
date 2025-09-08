@@ -12,6 +12,7 @@ spec:
     helm:
       - values-staging.yaml
     path: manifests
-    repoURL: https://github.com/mctsm/techtrends
+    repoURL: https://github.com/mctsm/techtest
     targetRevision: HEAD
   syncPolicy: {}
+
